@@ -1,4 +1,4 @@
-" File:       monokai.vim
+" File:       monokai-bold.vim
 " Maintainer: Matthew Martelle (mcmartelle)
 " URL:        https://github.com/mcmartelle/vim-monokai-bold
 " License:    MIT
