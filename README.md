@@ -29,7 +29,7 @@ Copy below command to your `~/.vimrc`:
 
 ```VimL
 syntax on
-colorscheme monokai
+colorscheme monokai-bold
 ```
 
 Terminal support

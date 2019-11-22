@@ -164,8 +164,8 @@ call s:h("PmenuThumb",    { "fg": s:lightblack, "bg": s:grey })
 " ---------------------------
 
 call s:h("Constant",      { "fg": s:purple })
-call s:h("Number",        { "fg": s:purple })
-call s:h("Float",         { "fg": s:purple })
+call s:h("Number",        { "fg": s:purple, "format": "bold" })
+call s:h("Float",         { "fg": s:purple, "format": "bold" })
 call s:h("Boolean",       { "fg": s:purple })
 call s:h("Character",     { "fg": s:yellow })
 call s:h("String",        { "fg": s:yellow })
@@ -176,12 +176,12 @@ call s:h("StorageClass",  { "fg": s:aqua })
 call s:h("Typedef",       { "fg": s:aqua })
     
 call s:h("Identifier",    { "fg": s:green })
-call s:h("Function",      { "fg": s:green })
+call s:h("Function",      { "fg": s:green, "format": "bold" })
                          
 call s:h("Statement",     { "fg": s:pink })
 call s:h("Operator",      { "fg": s:pink })
 call s:h("Label",         { "fg": s:pink })
-call s:h("Keyword",       { "fg": s:pink })
+call s:h("Keyword",       { "fg": s:pink, "format": "bold" })
 "        Conditional"
 "        Repeat"
 "        Exception"
@@ -253,7 +253,7 @@ call s:h("jpropertiesIdentifier",   { "fg": s:pink })
 call s:h("vimCommand",              { "fg": s:pink })
 
 " Javascript
-call s:h("jsFuncName",          { "fg": s:green })
+call s:h("jsFuncName",          { "fg": s:green, "format": "bold" })
 call s:h("jsThis",              { "fg": s:pink })
 call s:h("jsFunctionKey",       { "fg": s:green })
 call s:h("jsPrototype",         { "fg": s:aqua })
