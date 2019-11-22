@@ -182,7 +182,7 @@ call s:h("Statement",     { "fg": s:pink })
 call s:h("Operator",      { "fg": s:pink })
 call s:h("Label",         { "fg": s:pink })
 call s:h("Keyword",       { "fg": s:pink, "format": "bold" })
-"        Conditional"
+call s:h("Conditional",   { "fg": s:pink, "format": "bold" })
 "        Repeat"
 "        Exception"
 
